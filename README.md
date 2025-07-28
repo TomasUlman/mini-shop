@@ -1,52 +1,50 @@
-🛒 MiniShop
-A simple e-commerce application built with React, designed to practice:
+# 🛒 MiniShop  
+Jednoduchá e-commerce aplikace vytvořená v Reactu – slouží jako cvičný projekt pro:
 
-✅ useReducer
+✅ `useReducer`  
+✅ `useContext`  
+✅ `react-router-dom`  
+✅ Tailwind CSS  
 
-✅ useContext
+---
 
-✅ react-router-dom
+## 🚀 Funkce
 
-✅ Tailwind CSS
+- Výpis produktů  
+- Přidání produktu do košíku  
+- Možnost nastavit množství před vložením do košíku  
+- Nákupní košík s možností odebrání položky  
+- Automatický výpočet celkové ceny  
+- Checkout rozdělený do dvou kroků:
+  - Vyplnění údajů + rekapitulace objednávky  
+  - Potvrzení objednávky  
 
-🚀 Features
-Product listing
+---
 
-Add products to cart
+## 🧩 Použité technologie
 
-Set product quantity before adding
+- **React**  
+- **Vite**  
+- **Tailwind CSS**  
+- **React Router**  
+- **Lucide React** (ikony)
 
-Shopping cart with remove option
+---
 
-Automatic total price calculation
+## 🛠️ Instalace a spuštění
 
-Checkout process split into two steps:
-
-Entering customer details with order summary
-
-Order confirmation
-
-🧩 Technologies Used
-React
-
-Vite
-
-Tailwind CSS
-
-React Router
-
-Lucide React (icons)
-
-🛠️ Installation and Running
-Clone or download the project:
-bash
+1. Naklonuj nebo stáhni repozitář:
+```bash
 git clone https://github.com/your-username/minishop.git
 cd minishop
+```
 
-Install dependencies:
-bash
+2. Nainstaluj závislosti:
+```bash
 npm install
+```
 
-Start the development server:
-bash
+3. Spusť vývojový server:
+```bash
 npm run dev
+```
